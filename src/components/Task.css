@@ -1,0 +1,30 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2f2f;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 0 4px 0 10px;
+}
+
+.task:last-child {
+  margin-bottom: 0;
+}
+
+.task p {
+  font-size: 0.9em;
+  color: white;
+  font-weight: 600;
+}
+
+.task button {
+  width: 40px;
+  height: 40px;
+  background-color: #195d19;
+  color: #dfdfdf;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+}

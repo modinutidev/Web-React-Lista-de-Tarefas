@@ -1,0 +1,35 @@
+.newtask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+  background-color: #282828;
+}
+
+.newtask form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.newtask form input {
+  height: 36px;
+  width: 100%;
+  margin-right: 4px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.newtask form button {
+  height: 38px;
+  border-radius: 6px;
+  background-color: #585858;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
