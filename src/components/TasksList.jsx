@@ -63,7 +63,7 @@ export default function TasksList() {
                 <Task key={task.id} task={task} checkTask={checkTask} />
               )
           )}
-          <h2>Concluídos</h2>
+          <h2>Concluídas</h2>
           {tasks.map(
             (task) =>
               // verifica se a tarefa não foi concluida
