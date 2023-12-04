@@ -1,8 +1,15 @@
 .tasksList {
   display: flex;
   flex-direction: column;
+  max-width: 500px;
+  width: 100%;
 }
 
 .list {
   padding: 10px;
+}
+
+.list h2 {
+  font-size: 1.4em;
+  color: white;
 }

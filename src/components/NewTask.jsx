@@ -18,8 +18,12 @@ export default function NewTask({ addTask }) {
           name="description"
           onChange={(event) => setDescription(event.target.value)}
           value={descrition}
+          placeholder="Defina uma nova tarefa"
         />
-        <button>Adicionar</button>
+        <button>
+          <span className="material-symbols-outlined">add</span>
+          Adicionar
+        </button>
       </form>
     </div>
   );

@@ -4,6 +4,8 @@
   justify-content: center;
   height: 60px;
   background-color: #282828;
+  border-radius: 6px;
+  margin-top: 10px;
 }
 
 .newtask form {
@@ -26,10 +28,14 @@
 }
 
 .newtask form button {
-  height: 38px;
+  height: 36px;
   border-radius: 6px;
-  background-color: #585858;
+  background-color: seagreen;
   border: none;
   color: white;
   font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 13px;
 }

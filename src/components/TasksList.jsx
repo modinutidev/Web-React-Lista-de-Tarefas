@@ -55,10 +55,19 @@ export default function TasksList() {
         <NewTask addTask={addTask} />
 
         <div className="list">
+          <h2>Pendentes</h2>
           {tasks.map(
             (task) =>
               // verifica se a tarefa não foi concluida
               task.status === false && (
+                <Task key={task.id} task={task} checkTask={checkTask} />
+              )
+          )}
+          <h2>Concluídos</h2>
+          {tasks.map(
+            (task) =>
+              // verifica se a tarefa não foi concluida
+              task.status === true && (
                 <Task key={task.id} task={task} checkTask={checkTask} />
               )
           )}
