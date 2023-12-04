@@ -42,7 +42,7 @@ export default function TasksList() {
       setTasks((prevTasks) => [
         ...prevTasks,
         {
-          id: Math.floor(Math.random() * 100 + 1),
+          id: Math.floor(Math.random() * 100 + 4),
           description: descriptionTask,
           status: false,
         },
